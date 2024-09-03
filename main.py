@@ -109,7 +109,6 @@ def main():
             elif key=='2':
                 reset_event.set()
                 pause_event.set()
-            print('\033[2A')
 
 if __name__=='__main__':
     main()
